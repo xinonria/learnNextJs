@@ -17,11 +17,10 @@ export default function Page() {
           <p
             className={`text-xl text-gray-800 md:text-3xl md:leading-normal ${lusitana.className}`}
           >
-            <strong>Welcome to Acme.</strong> This is the example for the{' '}
-            <a href="https://nextjs.org/learn/" className="text-blue-500">
-              Next.js Learn Course
-            </a>
-            , brought to you by Vercel.
+            <p>基于Next.js的财务管理面板</p>
+            <p>made by Zhang Ningyi</p>
+            <p className="text-gray-300">登陆账号: user@nextmail.com</p>
+            <p className="text-gray-300">登陆密码: 123456</p>
           </p>
           <Link
             href="/login"
@@ -43,8 +42,9 @@ export default function Page() {
             src="/hero-mobile.png"
             width={620}
             height={560}
-            className='block md:hidden'
-            alt="Screenshots of the dashboard project showing mobile version"/>
+            className="block md:hidden"
+            alt="Screenshots of the dashboard project showing mobile version"
+          />
         </div>
       </div>
     </main>
